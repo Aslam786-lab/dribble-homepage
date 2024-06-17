@@ -8,7 +8,7 @@ function FooterCta() {
           Find your next designer today
         </h1>
         <p className="text-lg mb-12">
-          The world's leading brands use Dribbble to hire creative talent.
+          The world&quot;s leading brands use Dribbble to hire creative talent.
           Browse millions of top-rated portfolios to find your perfect creative
           match.
         </p>

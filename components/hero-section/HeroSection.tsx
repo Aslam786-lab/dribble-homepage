@@ -9,7 +9,7 @@ function HeroSection() {
           Over 3 million ready-to-work creatives!
         </span>
         <h1 className=" font-semibold source mt-10 text-7xl">
-          The world's destination for design
+          The world&quot;s destination for design
         </h1>
         <p className="text-lg mt-10">
           Get inspired by the work of millions of top-rated designers & agencies
@@ -23,12 +23,12 @@ function HeroSection() {
       <div className="relative flex overflow-x-hidden">
         <ul className="py-20 inline-flex  animate-infinitescroll">
           {designersData.map((item, index) => (
-            <DesignerSlideItem item={item} index={index} />
+            <DesignerSlideItem item={item} key={index} index={index} />
           ))}
         </ul>
         <ul className="absolute  py-20 inline-flex  animate-infinitescroll2">
           {designersData.map((item, index) => (
-            <DesignerSlideItem item={item} index={index} />
+            <DesignerSlideItem item={item} key={index} index={index} />
           ))}
         </ul>
       </div>
