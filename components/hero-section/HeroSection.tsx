@@ -9,7 +9,7 @@ function HeroSection() {
           Over 3 million ready-to-work creatives!
         </span>
         <h1 className=" font-semibold source mt-10 text-7xl">
-          The world&quot;s destination for design
+          The world&apos;s destination for design
         </h1>
         <p className="text-lg mt-10">
           Get inspired by the work of millions of top-rated designers & agencies
